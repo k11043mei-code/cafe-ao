@@ -1,0 +1,203 @@
+body {
+    background-color: beige;
+}
+h1{
+    font-size: 48px;
+    color: brown;
+    text-align: center;
+}
+.about{
+    max-width: 700px;
+     padding: 30px;
+    margin: 60px auto;
+    text-align: center;
+    color: brown;
+}
+.about p{
+    margin: 10px 0;
+}
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid brown;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    min-height: 220px;
+}
+.menu-card p{
+    line-height: 1.6;
+}
+.menu-card .price{
+    font-size: 18px;
+    font-weight: 700;
+}
+.menu-card .description{
+    color: #666;
+    font-size: 14px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    color: brown;
+}
+.access{
+    background: white;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 700px;
+    border-radius: 10px;
+    border: 2px solid brown;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.contact-button{
+    background-color: brown;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+.contact-button:hover{
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.subtitle{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: brown;
+}
+p{
+    text-align: center;
+    line-height: 1.8;
+    font-size: 16px;
+}
+nav a{
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    gap: 10px;
+    transition: color 0.3s;
+}
+nav a:hover{
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+    border-bottom: 1px solid brown;
+    border-top: 2px solid brown;
+}
+.hero{
+    margin-bottom: 60px;
+}
+nav{
+    display: flex;
+    gap: 30px
+}
+section{
+    margin: 60px 0;
+}
+.menu-card:hover{
+    background-color: brown;
+    color: white;
+    transform: translateY(-5px);
+}
+.main-image{
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgda(0,0,0,0.1);
+}
+.features {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transfore 0.3s;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature-card p{
+    line-height: 1.6;
+}
+.feature-card:hover{
+    background: brown;
+    color: white;
+    transform: translateY(-5px);
+    }
+.feature-number{
+    color: brown;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: brown;
+}
+@media (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu-card{
+        margin: 0 auto;
+        width: 90%;
+    }
+    nav{
+        gap: 10px;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 32px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .features {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .feature-card{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+*{
+    box-sizing: border-box;
+    }
