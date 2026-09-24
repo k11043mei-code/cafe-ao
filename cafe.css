@@ -178,6 +178,7 @@ footer {
     .menu-card{
         margin: 0 auto;
         width: 90%;
+        min-height: 180px;
     }
     nav{
         gap: 10px;
@@ -196,6 +197,7 @@ footer {
     .feature-card{
         width: 90%;
         margin: 0 auto;
+        min-height: 130px;
     }
 }
 *{
